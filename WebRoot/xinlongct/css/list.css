@@ -1,0 +1,175 @@
+/* CSS Document */
+
+.none{ width:100%; height:5px;}
+
+
+
+/* 图文 list */
+.list_head{ width:100%; height:34px; line-height:34px; background-image:url(../image/list_head.jpg); background-repeat:repeat-x;border-bottom:1px #bbb solid;}
+   .list_head ul{ padding:0px;}
+  .list_head li{display:block; float:left; width:33.3%; height:34px; line-height:34px; text-align:center; font-size:16px;}
+  .list_head li a{ text-decoration:none; color:#333;}   
+    .list_head_m{ border-left:1px #aaa solid;border-right:1px #bbb solid;}
+	
+
+/*  list_box */
+
+
+.list_box{ width:99%; height:auto; overflow:hidden; margin-left:1%; border-bottom:1px #999 solid;}
+.list_box_l{ width:22%; height:130px; float:left;}
+    .list_box_l img{ width:92%; margin-left:4%; margin-top:20px; height: auto;}
+.list_box_r{ width:76%; height:130px; float:right; }
+  .list_box_r_top{ width:100%; height:25px; line-height:25px; font-size:16px; margin-top:10px;white-space:nowrap;}
+     .list_r_lz{ width:50px; height:22px; line-height:22px; color: #FFF; background:#F00; margin-left:10px;}
+
+.list_box_r_m{ width:100%; height:auto; overflow:hidden;}
+	
+  .list_r_box{ background:#FFF; border:#999 solid 1px; height:60px; margin-left:1%; float:left;}
+  .list_r_a{ width:29%;}
+  .list_r_b{ width:19%;}
+  .list_r_c{ width:19%;}
+  .list_r_d{ width:19%;}
+  .list_r_e{ width:3%; height:60px; line-height:60px; font-size:30px; float:right;}
+  
+      .list_box_r_je{ width:99%; margin-top:13px; height:16px; line-height:16px; text-align:center; font-size:14px; color:#F00;}
+	  .list_box_r_nam{ width:99%; height:16px; line-height:16px; text-align:center; font-size:14px; color:#333;}
+   
+   
+   
+   
+   .list_box_r_bot{ width:99%; height:20px; line-height:20px; margin-top:5px;}
+   .list_box_r_box_a{ width: auto; float:left;height:14px; line-height:14px; font-size:12px; margin-left:1%; margin-right:1%; }
+   .list_box_r_bor_b{ width:60%; float:left; height:14px; border:1px #CCC solid;}
+	.bar_span{display:block;width: 0%;height:15px;background: green;}  
+   /* 公告 List */
+.list_main{ width:100%; height:auto; overflow:hidden;}
+.list_main a{ text-decoration:none; display:block; height:70px; width:100%;padding-left:2%;}
+   .list_main ul{ padding:0px; margin:0px; }
+   .list_main li{ display:block; float:left; width:100%; height:70px;  border-bottom:1px  #CCC solid;}
+   .list_m_tit{ width:100%; height:30px; float:left; line-height:30px; font-size:18px; font-family:"黑体"; color:#000; margin-top:10px;}
+   .list_m_time{ width:100%; height:10px; float:left; text-decoration:none; font-size:12px; color:#666; line-height:10px; margin-top:0px;}
+
+
+/*  投标记录  */
+.list_m_l{ width:48%; height:auto; float:left; margin-left:2%; }
+
+.list_m_r{ width:48%; height:auto; float:right; margin-right:2%; text-align:right;}
+
+
+/*  show gonggao  */
+.show_main{ width:98%; height:auto; overflow:hidden; margin:3px auto;}
+  .show_tit{ width:100%; height:50px; text-align:center; font-size:20px; padding-top:10px; border-bottom:#333 solid 1px;}
+  .show_time{ display:block; font-size:12px; line-height:20px;}
+     
+  .show_cont{ width:96%; height:auto; overflow:hidden; margin-top:20px; margin-left:3%; font-size:16px; line-height:24px;}
+	 .show_cont img{ width:96%; height:auto; margin:0px auto;}
+
+/*  我的账号  */
+.shwo_main{ width:90%; height:auto; overflow:hidden; margin:10px auto;}
+
+.zh_a{ width:99%; height:170px; margin:10px auto; border:1px #999 solid;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */
+	
+	line-height:22px; background:url(../image/zh_bg.png);
+	}
+  .zh_a_top{ width:99%; height:85px; margin:0px auto; border-bottom:1px #999 solid;}
+  .zh_a_top_l{ width:40%; height:auto; float:left;}
+    .zh_a_top_l img { width:70%; height:70px; margin-left:15%; margin-top:5px;}
+	
+   .zh_a_top_r{ width:59%; height:100px; float:left; padding-top:10px;}
+ 
+ 
+ .zh_name{ font-size:24px; font-family:"黑体"; line-height:40px; line-height:30px;}
+ 
+ 
+ 
+ .zh_a_bot{ width:96%; height:auto; margin:0px auto;}
+    .zh_a_bot ul{ padding:0px; margin:0px;}
+	.zh_a_bot li{ width:46%; height:20px; float:left; display:block; margin-left:3%;}
+	
+	
+	
+.tixian{ width:99%; height:40px; margin:10px auto; line-height:40px; font-size:24px; text-align:center; background:#F00;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */}
+  .tixian a{ text-decoration:none; color:#FFF;}
+  
+  
+  .zh_c{ width:99%; height:auto; overflow:hidden; margin:10px auto; border:1px #CCC solid;
+      -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */}
+     .zh_c ul{ margin:0px; padding:0px;}
+	 .zh_c li{ display:block; float:left; width:99%; float:left; height:40px; line-height:20px; font-size:18px; border-bottom:1px #CCC solid;}
+	     .zh_c a{ text-decoration:none; color:#333; width:99%; height:40px;}
+		 .zh_c_nam{ float:left;line-height:40px; margin-left:5px;}
+	 .zh_c img{ display:block; float:left; width:35px; height:35px; margin-top:3px; margin-left:10px;}
+	 
+	 
+.tuichu{ width:99%; height:40px; margin:10px auto; line-height:40px; font-size:24px; text-align:center; background:#ddd;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */}
+  .tuichu a{ text-decoration:none; color: #000;}
+  
+  
+  /*  登陆    */
+   
+.denglu{ width:99%; height:81px; line-height:40px; border:1px solid #aaa;
+    -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */}
+	
+	.denglu ul{ margin:0px; padding:0px;}
+   .denglu li{ display:block; float:left; width:99%; margin-left:0.5%; border-bottom:1px solid #aaa; }
+   .denglu_l{ width:auto; float:left; padding-left:2%;}
+     .denglu_r{ width:auto; float:left;}
+
+
+.denglu_b{ width:99%; height:40px; margin:10px auto; line-height:40px; font-size:24px; text-align:center; background: #930;
+    -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */}
+  .denglu_b a{ text-decoration:none; color: #fff;}
+  
+  
+   .denglu_c{ width:99%; height:20px; margin:10px auto;}
+  .cheBor{ float:left; margin:0 5px; border: #FF0000 1px solid; width:15px; height:15px; overflow:hidden; background:#FFF;}
+  .cheBor1{margin:-1px;*margin:0px}
+  
+ 
+ /*   投资详细页   */
+ 
+.touzi_a{ width:99%; height:120px; margin:0px auto; margin-top:10px;}
+   .touzi_a_l{ width:26%; height:100px; float:left;}
+      .touzi_a_l img { width:95%; float:left; margin-left:0%; margin-top:5px;}
+   
+   .touzi_a_r{ width:71%; height:120px; float:left; margin-left:2%; font-size:14px;}
+   
+   .touzi_a_r_a{ width:99%; height:40px; line-height:20px; font-size:16px; font-family:"黑体";}
+   .touzi_a_r_b{ width:99%; height:20px; line-height:20px;}
+   .touzi_a_r_c{ width:99%; height:20px; line-height:20px; color:#666;}
+   .touzi_a_r_c{ width:99%; height:20px; line-height:20px; color:#666;}
+
+
+.line_tz{ width:100%;margin:10px auto; height:1px; border-bottom:1px #aaa solid; }
+
+.touzi_b{ width:99%; height:120px; margin:0px auto; margin-top:10px;}
+    .touzi_b_l{ float:left; width:50%; height:auto; overflow:hidden;}
+	.touzi_b_r{ float:right; width:48%;height:auto; overflow:hidden;}
+   
+    /*  修改密码    */
+   
+.xgmm{ width:99%; height:121px; line-height:40px; border:1px solid #aaa;
+    -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */}
+	
+	.xgmm ul{ margin:0px; padding:0px;}
+   .xgmm li{ display:block; float:left; width:99%; margin-left:0.5%; border-bottom:1px solid #aaa; }
+   .denglu_l{ width:auto; float:left; padding-left:2%;}
+     .denglu_r{ width:auto; float:left;}
+   

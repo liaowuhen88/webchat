@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+   <jsp-config>  
+        <jsp-property-group>  
+            <description>jsp encoding example</description>  
+            <display-name>JSPConfiguration</display-name>  
+            <url-pattern>*.jsp</url-pattern>  
+            <el-ignored>true</el-ignored>  
+            <page-encoding>UTF-8</page-encoding>  
+            <scripting-invalid>false</scripting-invalid>  
+            <include-prelude></include-prelude>  
+            <include-coda></include-coda>  
+        </jsp-property-group>  
+        <jsp-property-group>  
+            <description>html encoding example</description>  
+            <display-name>JSPConfiguration</display-name>  
+            <url-pattern>*.html</url-pattern>  
+            <el-ignored>true</el-ignored>  
+            <page-encoding>UTF-8</page-encoding>  
+            <scripting-invalid>false</scripting-invalid>  
+            <include-prelude></include-prelude>  
+            <include-coda></include-coda>  
+        </jsp-property-group>  
+    </jsp-config> 
+   <servlet>  
+	        <servlet-name>coreServlet</servlet-name>  
+	        <servlet-class>  
+	            servlet.CoreServlet  
+	        </servlet-class>  
+   </servlet>  
+	 <!-- url-pattern中配置的/coreServlet用于指定该Servlet的访问路径 -->  
+	    <servlet-mapping>  
+	        <servlet-name>coreServlet</servlet-name>  
+	        <url-pattern>/coreServlet</url-pattern>  
+	    </servlet-mapping>  	  
+	<servlet>  
+	        <servlet-name>PropertyServlet</servlet-name>  
+	        <servlet-class>  
+	            servlet.PropertyServlet  
+	        </servlet-class>  
+   </servlet>  
+
+	    <servlet-mapping>  
+	        <servlet-name>PropertyServlet</servlet-name>  
+	        <url-pattern>/PropertyServlet</url-pattern>  
+	    </servlet-mapping> 
+	    
+	    
+	    <servlet>  
+	        <servlet-name>CommonServlet</servlet-name>  
+	        <servlet-class>  
+	            servlet.CommonServlet  
+	        </servlet-class>  
+   </servlet>  
+
+	    <servlet-mapping>  
+	        <servlet-name>CommonServlet</servlet-name>  
+	        <url-pattern>/xinlongct/CommonServlet</url-pattern>  
+	    </servlet-mapping> 
+	    
+	    <servlet>  
+	        <servlet-name>LogInServlet</servlet-name>  
+	        <servlet-class>  
+	            servlet.apiServlet.LogInServlet  
+	        </servlet-class>  
+   </servlet>  
+
+	    <servlet-mapping>  
+	        <servlet-name>LogInServlet</servlet-name>  
+	        <url-pattern>/xinlongct/LogInServlet</url-pattern>  
+	    </servlet-mapping>
+	    
+	     <servlet>  
+	        <servlet-name>RegisterServlet</servlet-name>  
+	        <servlet-class>  
+	            servlet.apiServlet.RegisterServlet 
+	        </servlet-class>  
+   </servlet>  
+
+	    <servlet-mapping>  
+	        <servlet-name>RegisterServlet</servlet-name>  
+	        <url-pattern>/xinlongct/RegisterServlet</url-pattern>  
+	    </servlet-mapping>  
+	     
+	     
+	     <servlet>  
+	        <servlet-name>ResetpasswordServlet</servlet-name>  
+	        <servlet-class>  
+	            servlet.apiServlet.ResetpasswordServlet 
+	        </servlet-class>  
+   </servlet>  
+
+	    <servlet-mapping>  
+	        <servlet-name>ResetpasswordServlet</servlet-name>  
+	        <url-pattern>/xinlongct/ResetpasswordServlet</url-pattern>  
+	    </servlet-mapping>  
+	     
+	     
+	      <servlet>  
+	        <servlet-name>ToubiaoBuyServlet</servlet-name>  
+	        <servlet-class>  
+	            servlet.apiServlet.ToubiaoBuyServlet 
+	        </servlet-class>  
+   </servlet>  
+
+	    <servlet-mapping>  
+	        <servlet-name>ToubiaoBuyServlet</servlet-name>  
+	        <url-pattern>/xinlongct/ToubiaoBuyServlet</url-pattern>  
+	    </servlet-mapping> 
+	    
+	      <servlet>  
+	        <servlet-name>ExtractCashServlet</servlet-name>  
+	        <servlet-class>  
+	            servlet.apiServlet.ExtractCashServlet
+	        </servlet-class>  
+   </servlet>  
+
+	    <servlet-mapping>  
+	        <servlet-name>ExtractCashServlet</servlet-name>  
+	        <url-pattern>/xinlongct/ExtractCashServlet</url-pattern>  
+	    </servlet-mapping>   
+	     
+	     
+	     
+	    
+	     
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+</web-app>
